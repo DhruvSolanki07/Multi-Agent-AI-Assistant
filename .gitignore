@@ -1,0 +1,56 @@
+# Dependencies & Environments
+node_modules/
+frontend/node_modules/
+.venv/
+backend/.venv/
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+backend/app/**/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Build outputs
+dist/
+frontend/dist/
+dist-ssr/
+build/
+
+# Logs & temporary files
+*.log
+frontend/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+*.env
+.env.*
+!.env.example
+backend/.env
+
+# IDE, OS & Tool metadata
+.kilo/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads and runtime task data (keep directory structure via .gitkeep)
+backend/uploads/*
+!backend/uploads/.gitkeep
+data/tasks/*
+!data/tasks/.gitkeep
